@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.NavbarFullDiv{
+    background: rgba(36, 93, 81, 1);
+    
+}
+.Navbaritems{
+    display: flex;
+    justify-content: space-evenly !important;
+    /* flex-wrap: wrap; */
+    /* border: solid gray; */
+    width: 100%;
+    overflow: hidden;
+}
+.Navbaritemsfirst{
+    /* position: absolute; */
+    display: flex;
+gap: 40px;
+}
+.Navbaritemsfirst a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.Navbaritemssec{
+    position: absolute;
+    right: 50px;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .Navbaritems{
+        flex-direction: column;
+    }
+    .Navbaritemsfirst{
+        flex-direction: column;
+        
+    }
+   .Navbaritemssec{
+   
+    position: relative;
+    margin: 41px 0 0 54px;
+    display: flex;
+    gap: 22px;
+   }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Styles */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles */
+  }
+  
