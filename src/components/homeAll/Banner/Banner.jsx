@@ -6,20 +6,22 @@ import style from "./Banner.module.css";
 const Banner = () => {
     return (
         <div>
-            <div>
+            <div className={style.bannerfulldiv}>
                 <div className='row'>
                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
                         <div>
                             <div>
-                                <h1>There is always something new for us to learn</h1>
-                                <p>we have created more than 100+ materials on various things that will help your career, with mentors who are experienced in their fields.</p>
+                                <h1 className={style.bannerTeg}>There is <span className={style.alwaystext}>always</span> something new for us to learn</h1>
+                                <p className={style.bannerParagraph}>we have created more than 100+ materials on various things that will help your career, with mentors who are experienced in their fields.</p>
                             </div>
-                            <div>
-                                <button>Start Journey <span>
+
+                            <div className={style.bannerlowerpart}>
+                                <button className={style.bannerbtn}>Start Journey <span>
                                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M2 1C2 0.447715 2.44772 0 3 0L11 5.36442e-07C11.5523 5.36442e-07 12 0.447716 12 1V9C12 9.55229 11.5523 10 11 10C10.4477 10 10 9.55229 10 9V3.41421L1.70711 11.7071C1.31658 12.0976 0.683417 12.0976 0.292893 11.7071C-0.0976311 11.3166 -0.0976311 10.6834 0.292893 10.2929L8.58579 2L3 2C2.44772 2 2 1.55228 2 1Z" fill="white" />
                                     </svg>
-                                </span> </button>
+                                </span> 
+                                </button>
 
                                 <span>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +36,8 @@ const Banner = () => {
                                     </svg>
 
                                 </span>
-                                <span><svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <span>
+                                    <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.525 0.324951C16.2768 0.76956 16.0555 1.22873 15.8625 1.69995C13.966 1.40001 12.0341 1.40001 10.1375 1.69995C9.94451 1.22873 9.72327 0.76956 9.47502 0.324951C7.68851 0.630202 5.95177 1.17687 4.31252 1.94995C1.38119 6.18031 0.051815 11.3161 0.562518 16.4375C2.47282 17.8735 4.61684 18.9688 6.90002 19.6749C7.41991 18.9882 7.8839 18.2609 8.28752 17.5C7.54261 17.2253 6.82664 16.8778 6.15002 16.4625C6.3356 16.339 6.51114 16.201 6.67502 16.05C8.64809 17.0003 10.81 17.4939 13 17.4939C15.1901 17.4939 17.3519 17.0003 19.325 16.05C19.5 16.2 19.675 16.3375 19.85 16.4625C19.1697 16.8745 18.4545 17.2259 17.7125 17.5125C18.0994 18.2906 18.551 19.0349 19.0625 19.7375C21.3428 19.0337 23.4832 17.9382 25.3875 16.5C25.9105 11.3777 24.58 6.23768 21.6375 2.01245C20.0167 1.22337 18.2971 0.655789 16.525 0.324951ZM8.85002 13.5125C8.2245 13.4675 7.6407 13.1821 7.22117 12.7159C6.80164 12.2498 6.57901 11.6392 6.60002 11.0125C6.57584 10.3848 6.79738 9.77256 7.21753 9.30571C7.63769 8.83887 8.22334 8.55429 8.85002 8.51245C9.47669 8.55429 10.0623 8.83887 10.4825 9.30571C10.9027 9.77256 11.1242 10.3848 11.1 11.0125C11.1242 11.6401 10.9027 12.2523 10.4825 12.7192C10.0623 13.186 9.47669 13.4706 8.85002 13.5125ZM17.15 13.5125C16.5245 13.4675 15.9407 13.1821 15.5212 12.7159C15.1016 12.2498 14.879 11.6392 14.9 11.0125C14.8758 10.3848 15.0974 9.77256 15.5175 9.30571C15.9377 8.83887 16.5233 8.55429 17.15 8.51245C17.7779 8.55117 18.3654 8.83483 18.7862 9.30238C19.207 9.76994 19.4274 10.384 19.4 11.0125C19.4274 11.6409 19.207 12.255 18.7862 12.7225C18.3654 13.1901 17.7779 13.4737 17.15 13.5125Z" fill="white" />
                                 </svg>
                                 </span>
@@ -43,20 +46,20 @@ const Banner = () => {
                     </div>
                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
                         <div>
-                            <div className=''>
+                            <div className={style.bannerrightSide}>
                                 <div className={style.bannercarddiv}>
                                     <div>
-                                        <img className={style.bannercardImg} src='/images/dppic.jpeg' alt=''/>
+                                        <img className={style.bannercardImg} src='/images/dppic.jpeg' alt='' />
                                     </div>
-                                    <div>
-                                    <p>Learn basic ui ux design</p>
-                                    <span>Today at 12 PM</span>
-                                    <button>Join Now</button>
+                                    <div className={style.cardtextbtn}>
+                                        <span className={style.cardtebtn}>Learn basic ui ux design</span>
+                                        <span className={style.cardtebtntime}>Today at 12 PM</span>
+                                        <button className={style.cardtebtnJoin}>Join Now</button>
                                     </div>
                                 </div>
 
                                 <div>
-                                    <img className={style.bannerImg} src="/images/banner.png" alt=""/>
+                                    <img className={style.bannerImg} src="/images/banner.png" alt="" />
                                 </div>
                             </div>
                         </div>

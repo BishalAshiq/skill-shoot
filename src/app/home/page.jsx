@@ -1,9 +1,12 @@
+import TrustCompany from '@/components/homeAll/TrustedCompany/TrustCompany';
 import React from 'react';
 
 const HomePage  = () => {
     return (
         <div>
-              <h1>Home</h1>
+            <div className=''> 
+                <TrustCompany/>
+            </div>
         </div>
     );
 };

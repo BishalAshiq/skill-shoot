@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import style from "./Navbar.module.css";
-import Banner from '../homeAll/Banner';
+import Banner from '../homeAll/Banner/Banner';
 
 const Navbar = () => {
     return (
@@ -11,9 +11,9 @@ const Navbar = () => {
                 <div className=''>
                     <nav className="navbar navbar-expand-lg ">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#">
-                                Skill <span>Shoot</span>
-                            </a>
+                            <Link className="navbar-brand" href="/">
+                                <h6 className={style.CompanyTag}>Skill <span className={style.CompanyTagspan}>Shoot</span></h6>
+                            </Link>
 
 
 
@@ -48,10 +48,10 @@ const Navbar = () => {
                                         </Link>
                                     </div>
                                     <div className={style.Navbaritemssec}>
-                                        <button>
+                                        <p className={style.Navbarbtnlogin}>
                                         Login
-                                        </button>
-                                        <button>
+                                        </p>
+                                        <button className={style.NavbarbtnRegister}>
                                         Register
                                         </button>
                                     </div>
