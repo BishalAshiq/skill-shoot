@@ -19,23 +19,23 @@ const TrustCompany = () => {
             </div>
 
 
-            <div className={style.hcnyarea}>
+            <div className={style.hcnyareadiv}>
                 <div className={style.hcnyarea}>
                     <div className='row'>
                         <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
                             <div className={style.hcnytextarea}>
-                                <p>
-                                Happy Chinese New Year, 20% discount for you today
+                                <p className={style.hcyntag}>
+                                Happy <span className={style.hcyntagspan}>Chinese New Year</span>, 20% discount for you today
                                 </p>
-                                <button>
+                                <button className={style.hcynbtn}>
                                 Subscribe Course
                                 </button>
                             </div>
                         </div>
                         <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
-                            <div className={style.hcnypic}>
-                                <div>
-                                    <img src='/images/HCNYpic.png' alt=''/>
+                            <div className={style.hcnypicfulldiv}>
+                                <div className={style.hcnypicdiv}>
+                                    <img className={style.hcnypic} src='/images/HCNYpic.png' alt=''/>
                                 </div>
                             </div>
                         </div>  

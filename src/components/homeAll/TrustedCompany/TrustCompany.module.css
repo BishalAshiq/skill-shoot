@@ -48,26 +48,101 @@ gap: 30px;
     color: rgba(128, 128, 128, 1);
 }
 
-.hcnyarea {
+.hcnyareadiv {
     background-image: url('/images/HCNY.png');
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    padding: 20px; /* Add padding for better content spacing */
-   
-  
-    border-radius: 8px; /* Optional: rounded corners */
+    border-radius: 8px; 
+    margin: 192px 50px 60px 50px;
+
 }
+.hcnytextarea{
+    padding: 40px 0 0 60px;
+}
+.hcyntag{
+    width: 586px;
+    height: 108px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(44, 44, 44, 1);
+}
+.hcyntagspan{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: rgba(203, 132, 97, 1);
+}
+
+
+.hcnypicdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hcnypic{
+        width: 289px;
+        height: 433px;
+        margin: -151px 0 0 0;
+}
+.hcynbtn{
+    background: rgba(36, 93, 81, 1);
+width: 231px;
+height: 60px;
+font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
- 
+ .hcnypicfulldiv{
+    display: none;
+    visibility: hidden;
+ }
+
+ .hcnyareadiv {
+    background-image: url('/images/HCNYmobile.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 8px; 
+    margin: 100px 0 0 0;
+
+}
+ .hcnytextarea{
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    width: 340px;
+    height: 300px;
+    text-align: center;
+ }
   }
   
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    /* Styles */
+    .hcnypicfulldiv{
+        display: none;
+        visibility: hidden;
+     }
   }
   
   /* Medium devices (tablets, 768px and up) */
