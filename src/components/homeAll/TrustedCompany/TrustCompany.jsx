@@ -6,8 +6,8 @@ const TrustCompany = () => {
         <div>
             <div>
                 <div className={style.trusttextdiv}>
-                    <h3>Trusted more than 100+ in the world</h3>
-                    <p>they have asked us more than 3 times to teach their employees about various things. to improve their skills</p>
+                    <h3 className={style.trusttexttag}>Trusted more than 100+ in the world</h3>
+                    <p className={style.trusttextparagra}>they have asked us more than 3 times to teach their employees about various things. to improve their skills</p>
                 </div>
                 <div className={style.trustImgsdiv}>
                     <img className={style.trustImg} src='/images/uber.png' alt=''/>
@@ -15,6 +15,31 @@ const TrustCompany = () => {
                     <img className={style.trustImg2} src='/images/paypal.png' alt=''/>
                     <img className={style.trustImg3} src='/images/dribble.png' alt=''/>
                     <img className={style.trustImg4} src='/images/microsoft.png' alt=''/>
+                </div>
+            </div>
+
+
+            <div className={style.hcnyarea}>
+                <div className={style.hcnyarea}>
+                    <div className='row'>
+                        <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
+                            <div className={style.hcnytextarea}>
+                                <p>
+                                Happy Chinese New Year, 20% discount for you today
+                                </p>
+                                <button>
+                                Subscribe Course
+                                </button>
+                            </div>
+                        </div>
+                        <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
+                            <div className={style.hcnypic}>
+                                <div>
+                                    <img src='/images/HCNYpic.png' alt=''/>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
         </div>

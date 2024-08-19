@@ -45,7 +45,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
-                        <div>
+                        <div className={style.bannerrightSidefull}>
                             <div className={style.bannerrightSide}>
                                 <div className={style.bannercarddiv}>
                                     <div>

@@ -84,20 +84,10 @@ color: rgba(255, 255, 255, 1);
 
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .Navbaritems{
-        flex-direction: column;
+    .NavbarFullDiv{
+        background: rgba(36, 93, 81, 1);
+        padding: 0 0 10px 0;
     }
-    .Navbaritemsfirst{
-        flex-direction: column;
-        
-    }
-   .Navbaritemssec{
-   
-    position: relative;
-    margin: 41px 0 0 54px;
-    display: flex;
-    gap: 22px;
-   }
   }
   
   /* Small devices (landscape phones, 576px and up) */
