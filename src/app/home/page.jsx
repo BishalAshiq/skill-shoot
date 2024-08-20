@@ -1,4 +1,5 @@
 import Doexist from '@/components/homeAll/Doexist/Doexist';
+import LetUsSkShoot from '@/components/homeAll/LetUsSkShoot/LetUsSkShoot';
 import PopCourseWeek from '@/components/homeAll/PopCourseWeek/PopCourseWeek';
 import TrustCompany from '@/components/homeAll/TrustedCompany/TrustCompany';
 import React from 'react';
@@ -10,6 +11,7 @@ const HomePage  = () => {
                 <TrustCompany/>
                 <Doexist/>
                 <PopCourseWeek/>
+                <LetUsSkShoot/>
             </div>
         </div>
     );

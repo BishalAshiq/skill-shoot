@@ -1,8 +1,6 @@
 "use client"; // Required for client-side components in Next.js 13+
-
-import React from "react";
-
-
+import React, { Component } from "react";
+import Slider from "react-slick";
 import style from "./PopCourseWeek.module.css";
 
 
@@ -11,9 +9,12 @@ const PopCourseWeek = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
     };
     return (
         <div>
@@ -32,25 +33,27 @@ const PopCourseWeek = () => {
                         I want a slider in next js pattern
 
                     </div>
-
-{/* 
-                    <Slider {...settings}>
+                    {/* <Slider {...settings}>
                         <div>
-                            <h3>Slide 1</h3>
+                            <h3>1</h3>
                         </div>
                         <div>
-                            <h3>Slide 2</h3>
+                            <h3>2</h3>
                         </div>
                         <div>
-                            <h3>Slide 3</h3>
+                            <h3>3</h3>
                         </div>
                         <div>
-                            <h3>Slide 4</h3>
+                            <h3>4</h3>
                         </div>
                         <div>
-                            <h3>Slide 5</h3>
+                            <h3>5</h3>
+                        </div>
+                        <div>
+                            <h3>6</h3>
                         </div>
                     </Slider> */}
+
                 </div>
 
             </div>
