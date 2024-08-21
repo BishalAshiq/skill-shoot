@@ -10,7 +10,7 @@ const LetUsSkShoot = () => {
                     <div className='col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12'>
                         <div>
                             <div className={style.LetUsSkShootimgdiv}>
-                                <img className={style.LetUsSkShootimg} src='/images/homepics.png' alt='' />
+                                <img className={style.LetUsSkShootimg} src='/images/homepic.png' alt='' />
                             </div>
                         </div>
                     </div>
@@ -87,12 +87,12 @@ const LetUsSkShoot = () => {
 
             <div>
                 <div className={style.LetUsSkreachdiv}>
-                    <h1>
-                    Improve your skills, and reach your career as soon as possible
+                    <h1 className={style.LetUsSkreachh1}>
+                    <span className={style.LetUsSkreachh1span}>Improve</span> your skills, and reach your career as soon as possible
                     </h1>
-                    <div>
-                        <button>Join Now</button>
-                        <button>Subscribe Course</button>
+                    <div className={style.LetUsSkShootbtndiv}>
+                        <button className={style.LetUsSkShootbtn}>Join Now</button>
+                        <button className={style.LetUsSkShootbtnn}>Subscribe Course</button>
                     </div>
                 </div>
             </div>

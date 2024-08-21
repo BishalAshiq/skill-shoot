@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.LetUsSubscribeh1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: 
+    rgba(44, 44, 44, 1);
+    width: 408px;
+    height: 54px;
+
+}
+.LetUsSubscribeh1span{
+    color: 
+    rgba(203, 132, 97, 1);
+}
+.LetUsSubscribep{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: 
+    rgba(128, 128, 128, 1);
+    width: 545px;
+    height: 70px;
+}
+.LetUsSubscribetextdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.LetUsSubscribecardh1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: 
+    rgba(44, 44, 44, 1);
+    width: 271px;
+    height: 54px;
+    /* border: solid gray; */
+}
+.LetUsSubscribecardh1span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: 
+    rgba(128, 128, 128, 1);
+    width: 195px;
+    height: 35px;
+}
+.LetUsSubscribecardspanBase{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: 
+    rgba(44, 44, 44, 1);
+    width: 71px;
+    height: 54px;
+}
+.LetUsSubscribecardp{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: 
+    rgba(128, 128, 128, 1);
+    width: 271px;
+    height: 75px;
+}
+.LetUsSubscribecardsinglediv{
+    display: flex;
+    gap: 10px;
+}
+
+.subscribeCardRigtsvg{
+    /* border: solid gray; */
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    /* margin: 0 20px 0 0; */
+    /* padding: 4px ; */
+    border-radius: 100%;
+    background: rgba(82, 67, 194, 0.1037);
+
+}
+.subscribeCardRigtsvgp{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: 
+    rgba(44, 44, 44, 1);
+    width: 
+    177px;
+    height: 24px;
+}
+
+.LetUsSubscribecardbutton{
+    width: 207px !important;
+    height: 45px;
+    /* opacity: 10%; */
+    background-color: rgb(255, 249, 246);
+    border-radius: 20px;
+border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: 
+
+    rgba(253, 194, 165, 1);
+    width: 
+    103px;
+    height: 35px;
+}
+.LetUsSubscribefulldiv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+.LetUsSubscribesinglediv{
+    /* border: solid gray; */
+    width: 300px;
+    padding: 20px;
+}
+.LetUsSubscribesinglediv:hover{
+    /* border: solid gray; */
+    width: 300px;
+    height: 490px;
+    box-shadow: rgba(82, 67, 194, 0.2958) 0px 25px 20px -20px;
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgba(36, 93, 81, 1);
+    color: white;
+
+}

@@ -7,10 +7,23 @@
 
 .LetUsSkShootimgdiv{
     /* border: solid gray; */
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('/images/homepicsframe.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    border-radius: 8px; 
+    /* margin: 192px 50px 60px 50px; */
+    width: 495px;
+
+
+}
+.LetUsSkShootimg{
+    width: 405px;
+    height: 530px;
 
 }
 .LetUsSkShoottextsdiv{
@@ -20,11 +33,7 @@
     align-items: start;
     flex-direction: column;
 }
-.LetUsSkShootimg{
-        width: 457px;
-        height: 570px;
-    
-}
+
 .LetUsSkShoottag{
     width: 406px;
     height: 72px;
@@ -74,9 +83,54 @@ padding: 20px;
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     border-radius: 8px; 
-    /* margin: 192px 50px 60px 50px; */
+    margin: 88px 50px 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+}
+.LetUsSkreachh1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    width: 635px;
+    height: 108px;
+    color: rgba(44, 44, 44, 1);
+}
+.LetUsSkreachh1span{
+    color: rgba(203, 132, 97, 1);
 }
 
+.LetUsSkShootbtndiv{
+    display: flex;
+    gap: 10px;
+}
+.LetUsSkShootbtn{
+    width: 144px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 15px, 25px, 15px, 25px;
+    background: rgba(203, 132, 97, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border:none;
+    color: white;
+}
+
+.LetUsSkShootbtnn{
+    width: 231px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 15px, 25px, 15px, 25px;
+    background: 
+    rgba(36, 93, 81, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border:none;
+    color: white;
+}
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
     .LetUsSkShootimgdiv{
