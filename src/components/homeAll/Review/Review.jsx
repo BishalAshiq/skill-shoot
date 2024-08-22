@@ -139,7 +139,8 @@ const Review = () => {
                             </div>
                         </div>
                     </Slider>
-                    <div style={{ textAlign: "center", margin: "20px 0" }}>
+                    <div style={{ display:"flex", justifyContent: "center",
+                        alignItems:"center",gap: "10px", textAlign: "center", margin: "20px 0" }}>
                         <span className={style.revsliderbutton} onClick={previous}>
                             <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.08331 16.8447L27.625 16.8447" stroke="#0C111F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -148,7 +149,7 @@ const Review = () => {
 
                         </span>
                         <span className={style.revsliderbutton} onClick={next}>
-                            <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21.9167 10.8447L1.375 10.8447" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 <path d="M14 19.8445C14 15.9874 22 10.8445 22 10.8445C22 10.8445 14 5.70165 14 1.84448" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
