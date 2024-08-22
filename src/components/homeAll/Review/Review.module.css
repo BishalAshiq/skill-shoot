@@ -58,6 +58,9 @@
         font-size: 16px;
         color: rgba(128, 128, 128, 1);
     }
+    .revsliderbutton{
+        border: solid gray;
+    }
     .revsliderbutton:hover{
         background-color: rgba(203, 132, 97, 1);
         color: white;
