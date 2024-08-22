@@ -3,6 +3,7 @@
 .PopCourseWeekfulldiv{
     background: rgba(36, 93, 81, 1);
 padding: 80px 50px;
+
 /* display: flex;
 justify-content: center;
 flex-direction: column;
@@ -29,9 +30,88 @@ align-items: center; */
     height: 70px;
     text-align: center;
 }
+.cardsliderfulldiv{
+    display: grid;
+    place-items: center;
+}
+.cardfulldiv{
+    width: 400px;
+    border-radius: 10px;
+}
+.cardtextfulldiv{
+    padding: 20px;
+}
 
+.cardInfofulldiv{
+    display: flex;
+    justify-content: space-around;
+}
+.cardInfosingdiv{
+    display: flex;
+    gap: 10px;
+}
 .cardimg{
     width: 45px;
     height: 45px;
     border-radius: 100%;
+}
+.cardInfobtndiv{
+    display: flex;
+    justify-content: space-around;
+}
+.PopCoursecardtag{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(44, 44, 44, 1);
+    width: 365px;
+    height: 72px;
+}
+.cardimgtextP{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(44, 44, 44, 1);
+    width: 94px;
+    /* height: 21px; */
+}
+.cardimgtextspan{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(44, 44, 44, 1);
+    width: 76px;
+    height: 15px;
+    /* margin: -20px 0 0 0; */
+}
+.cardimgtextPdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardInfobtndiv{
+    margin: 20px 0 0 0;
+}
+.cardInfobtn{
+    background-color: rgba(36, 93, 81, 1);
+    width: 103px;
+    height: 54px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    color: white;
+}
+.cardInfobtnp{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(44, 44, 44, 1);
+}
+.cardInfobtnspan{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(128, 128, 128, 1);
 }
