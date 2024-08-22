@@ -63,6 +63,11 @@ const SubscribeUs = () => {
                        </div>
                     </div>
                     <div className={style.LetUsSubscribesinglediv}>
+                    <div className={style.LetUsSubscribecardbuttonMostdiv}>
+                         <button className={style.LetUsSubscribecardbuttonmost}>
+                         MOST POPULAR
+                        </button>
+                       </div>
                         <div className={style.LetUsSubscribecardh1div}>
                             <h1 className={style.LetUsSubscribecardh1}>$100 <span className={style.LetUsSubscribecardh1span}>/ 1 month</span></h1>
                             <span className={style.LetUsSubscribecardspanBase}>Pro</span>

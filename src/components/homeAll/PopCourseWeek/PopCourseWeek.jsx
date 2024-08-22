@@ -1,5 +1,5 @@
 "use client"; // Required for client-side components in Next.js 13+
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import style from "./PopCourseWeek.module.css";
 

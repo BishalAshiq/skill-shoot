@@ -112,6 +112,21 @@ border: none;
     103px;
     height: 35px;
 }
+.LetUsSubscribecardbuttonmost{
+    /* opacity: 10%; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: 
+
+    rgb(255, 255, 255);
+    width: 
+    121px;
+    height: 27px;
+}
 .LetUsSubscribefulldiv{
     display: flex;
     justify-content: center;
@@ -125,12 +140,36 @@ border: none;
 }
 .LetUsSubscribesinglediv:hover{
     /* border: solid gray; */
-    width: 300px;
-    height: 490px;
+    /* width: 300px; */
+    /* height: 490px; */
     box-shadow: rgba(82, 67, 194, 0.2958) 0px 25px 20px -20px;
     cursor: pointer;
     padding: 20px;
     background-color: rgba(36, 93, 81, 1);
-    color: white;
+    color: white !important;
+    border-radius: 20px;
+    box-shadow: 0px 42px 34px 0px rgba(82, 67, 194, 0.2958);
+    
+}
+.LetUsSubscribesinglediv:hover svg path {
+    fill: white; /* Changes the color of SVG paths inside LetUsSubscribesinglediv */
+}
 
+.LetUsSubscribesinglediv:hover .LetUsSubscribecardh1span,
+.LetUsSubscribesinglediv:hover .LetUsSubscribecardspanBase,
+.LetUsSubscribesinglediv:hover .LetUsSubscribecardp,
+.LetUsSubscribesinglediv:hover .subscribeCardRigtsvgp{
+    color: white; /* Ensures all specified elements inside LetUsSubscribesinglediv are white */
+}
+.LetUsSubscribesinglediv:hover .LetUsSubscribecardbutton {
+    background-color: rgba(203, 132, 97, 1);
+    color: white;
+}
+.LetUsSubscribesinglediv:hover .LetUsSubscribecardbuttonmost {
+    background-color: rgba(203, 132, 97, 1);
+    color: white;
+}
+.LetUsSubscribecardbuttonMostdiv{
+    display: flex;
+    justify-content: right;
 }
