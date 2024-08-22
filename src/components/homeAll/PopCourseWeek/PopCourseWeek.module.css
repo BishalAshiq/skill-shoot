@@ -3,10 +3,10 @@
 .PopCourseWeekfulldiv{
     background: rgba(36, 93, 81, 1);
 padding: 80px 50px;
-display: flex;
+/* display: flex;
 justify-content: center;
 flex-direction: column;
-align-items: center;
+align-items: center; */
 }
 .PopCourseWeektextdiv{
     display: flex;
@@ -28,4 +28,10 @@ align-items: center;
     width: 347px;
     height: 70px;
     text-align: center;
+}
+
+.cardimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
 }
