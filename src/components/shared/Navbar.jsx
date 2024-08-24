@@ -9,7 +9,7 @@ const Navbar = () => {
 
             <div className={style.NavbarFullDiv}>
                 <div className=''>
-                    <nav className="navbar navbar-expand-lg ">
+                    <nav className="navbar navbar-expand-lg fixed">
                         <div className="container-fluid">
                             <Link className="navbar-brand" href="/">
                                 <h6 className={style.CompanyTag}>Skill <span className={style.CompanyTagspan}>Shoot</span></h6>

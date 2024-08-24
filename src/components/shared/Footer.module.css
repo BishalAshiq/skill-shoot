@@ -14,42 +14,42 @@
     /* position: absolute; */
     display: flex;
     flex-wrap: wrap;
-gap: 40px;
-margin: 12px 0 0 0;
+    gap: 40px;
+    margin: 12px 0 0 0;
 }
 .footertags{
     color: rgba(255, 255, 255, 1);
     font-size: 36px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        width: 697px;
-        height: 54px
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 697px;
+    height: 54px
 }
 .footertexts{
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        width: 507px;
-        height: 35px
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 507px;
+    height: 35px
 }
 .footeritemsfirst a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 18px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .footeritemsfirst a:hover{
     text-decoration: none;
     color: white;
     font-size: 18px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .footertagstextsDiv{
     display:grid;
@@ -81,9 +81,9 @@ margin: 12px 0 0 0;
     background: rgba(204, 134, 99, 1);
     color: white;
     font-size: 18px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     border: none;
 }
 
@@ -96,10 +96,10 @@ margin: 12px 0 0 0;
 }
 .CompanyTag{
     font-family: "Poppins", sans-serif;
-font-weight: 700;
-font-size: 24px;
-margin: 10px 0 0 0;
-color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    color: rgba(255, 255, 255, 1);
 }
 .CompanyTagspan{
     font-family: "Poppins", sans-serif;
@@ -122,22 +122,22 @@ color: rgba(255, 255, 255, 1);
     .footertags{
         color: rgba(255, 255, 255, 1);
         font-size: 18px;
-            font-family: "Poppins", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            width: 272px;
-            height: 54px;
-            text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 272px;
+        height: 54px;
+        text-align: center;
     }
     .footertexts{
-        color: rgba(255, 255, 255, 1);
+        color: rgba(255, 240, 240, 0.349);
         font-size: 12px;
-            font-family: "Poppins", sans-serif;
-            text-align:center;
-            font-weight: 400;
-            font-style: normal;
-            width: 311px;
-            height: 60px
+        font-family: "Poppins", sans-serif;
+        text-align:center;
+        font-weight: 400;
+        font-style: normal;
+        width: 311px;
+        height: 60px
     }
     .footerInputsDiv{
         display: flex;
@@ -164,9 +164,9 @@ color: rgba(255, 255, 255, 1);
         background: rgba(204, 134, 99, 1);
         color: white;
         font-size: 12px;
-            font-family: "Poppins", sans-serif;
-            font-weight: 600;
-            font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
         border: none;
     }
     .footeritemsfirst{
@@ -175,8 +175,8 @@ color: rgba(255, 255, 255, 1);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    gap: 40px;
-    margin: 12px 0 0 0;
+        gap: 40px;
+        margin: 12px 0 0 0;
     }
     .CompanyTag{
         display: none;
@@ -202,6 +202,25 @@ color: rgba(255, 255, 255, 1);
         font-weight: 700;
         font-size: 24px;
         color: rgba(203, 132, 97, 1) !important;
+    }
+    .footeritemsLastdiv{
+        margin: 50px 0 20px 0;
+    }
+    .footeritemsfirst a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .footeritemsfirst a:hover{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
     
 }

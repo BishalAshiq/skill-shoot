@@ -22,7 +22,7 @@
 
 }
 .LetUsSkShootimg{
-    width: 405px;
+    width: 376px;
     height: 530px;
 
 }
@@ -132,6 +132,15 @@ padding: 20px;
     border:none;
     color: white;
 }
+
+.SkShootsvg{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
     .LetUsSkShootimgdiv{
@@ -174,9 +183,10 @@ padding: 20px;
         display: flex;
         /* justify-content: space-around; */
         width: 100%;
-        padding: 40px;
+        padding: 71px 0 120px 0px;
         align-items: center;
         flex-wrap: wrap;
+        height: 416px;
     }
     .LetUsSkreachh1{
         font-size: 18px;
@@ -189,7 +199,21 @@ padding: 20px;
         display: grid;
         place-items: center;
     }
-    
+    .SkShootsvg{
+        width: 11.25px;
+        height: 11.88px;
+    }
+    .LetUsSkShootsvg{
+        padding: 3px 8px 5px 9px;
+        width: 12px;
+        height: 10px;
+    }
+    .LetUsSkShootjoinnumbers{
+        width: 197px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 30px;
+    }
   }
   
   /* Small devices (landscape phones, 576px and up) */
