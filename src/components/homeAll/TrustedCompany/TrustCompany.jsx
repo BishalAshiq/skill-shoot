@@ -1,7 +1,22 @@
-import React from 'react';
+"use client"
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the AOS styles
+
 import style from "./TrustCompany.module.css";
 
 const TrustCompany = () => {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // Duration of the animation in milliseconds
+          easing: 'ease-in-out', // Type of easing
+          once: true, // Whether animation should happen only once - while scrolling down
+          mirror: false, // Whether elements should animate out while scrolling past them
+        });
+      }, []);
+
+
     return (
         <div className={style.trustCompanyFulldiv}>
             <div>
@@ -35,7 +50,7 @@ const TrustCompany = () => {
                         </div>
                         <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12'>
                             <div className={style.hcnypicfulldiv}>
-                                <div className={style.hcnypicdiv}>
+                                <div className={style.hcnypicdiv} data-aos="zoom-out-left">
                                     <img className={style.hcnypic} src='/images/HCNYpic.png' alt=''/>
                                 </div>
                             </div>

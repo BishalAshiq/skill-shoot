@@ -33,6 +33,11 @@
     border-bottom: 4px solid rgba(203, 132, 97, 1);
    
 }
+ .bannerSVGdiv{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
 .bannerbtn{
     background: rgba(203, 132, 97, 1);
 width: 217px;

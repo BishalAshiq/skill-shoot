@@ -1,8 +1,22 @@
-import React from 'react';
+"use client"
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the AOS styles
+
 import style from "./LetUsSkShoot.module.css";
 
 
 const LetUsSkShoot = () => {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // Duration of the animation in milliseconds
+          easing: 'ease-in-out', // Type of easing
+          once: true, // Whether animation should happen only once - while scrolling down
+          mirror: false, // Whether elements should animate out while scrolling past them
+        });
+      }, []);
+
     return (
         <div>
             <div className={style.LetUsSkShootFulldiv}>
@@ -10,7 +24,7 @@ const LetUsSkShoot = () => {
                     <div className='col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12'>
                         <div>
                             <div className={style.LetUsSkShootimgdiv}>
-                                <img className={style.LetUsSkShootimg} src='/images/homepic.png' alt='' />
+                                <img data-aos="zoom-in-right" className={style.LetUsSkShootimg} src='/images/homepic.png' alt='' />
                             </div>
                         </div>
                     </div>
