@@ -13,6 +13,7 @@
 .footeritemsfirst{
     /* position: absolute; */
     display: flex;
+    flex-wrap: wrap;
 gap: 40px;
 margin: 12px 0 0 0;
 }
@@ -60,6 +61,7 @@ margin: 12px 0 0 0;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .footerInput{
     width: 380px;
@@ -104,4 +106,112 @@ color: rgba(255, 255, 255, 1);
     font-weight: 700;
     font-size: 24px;
     color: rgba(203, 132, 97, 1) !important;
+}
+.CompanyTagmob{
+    display:none;
+    visibility: none;
+}
+
+
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+    .footertags{
+        color: rgba(255, 255, 255, 1);
+        font-size: 18px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            width: 272px;
+            height: 54px;
+            text-align: center;
+    }
+    .footertexts{
+        color: rgba(255, 255, 255, 1);
+        font-size: 12px;
+            font-family: "Poppins", sans-serif;
+            text-align:center;
+            font-weight: 400;
+            font-style: normal;
+            width: 311px;
+            height: 60px
+    }
+    .footerInputsDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .footerInput{
+        width: 297px;
+        height: 47px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 31%);
+        border: none;
+        /* padding: 0 0 0 20px; */
+        /* opacity: 8%; */
+        outline: none;
+        color: white;
+    }
+    .footerInputsbutton{
+        width: 126px;
+        height: 47px;
+        border-radius: 4px;
+        background: rgba(204, 134, 99, 1);
+        color: white;
+        font-size: 12px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        border: none;
+    }
+    .footeritemsfirst{
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    gap: 40px;
+    margin: 12px 0 0 0;
+    }
+    .CompanyTag{
+        display: none;
+        visibility: hidden
+    }
+    .footeritemsLastdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CompanyTagmob{
+        display: block;
+        visibility: visible;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        margin: 10px 0 0 0;
+        color: rgba(255, 255, 255, 1);
+    }
+    .CompanyTagspanmob{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: rgba(203, 132, 97, 1) !important;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles */
 }

@@ -16,7 +16,7 @@ const PopCourseWeek = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: true,
+        autoplay: false,
         speed: 6000,
         autoplaySpeed: 6000,
         cssEase: "linear",

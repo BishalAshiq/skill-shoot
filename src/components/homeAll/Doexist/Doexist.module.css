@@ -128,3 +128,89 @@ rgba(44, 44, 44, 1);
     width: 270px;
     height: 103px;
 }
+
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .doexisittagdiv{
+        display: grid;
+        place-items: center;
+        margin: 30px 0;
+    }
+  .doexisittag{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    /* color: rgba(36, 93, 81, 1); */
+    width: 157px;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+  }
+  .doexisittagspan{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    /* color: rgba(36, 93, 81, 1); */
+    width: 157px;
+    
+    height: 27px;
+    line-height: 27px;
+  }
+  .doexisittagstexTs{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    /* color: rgba(36, 93, 81, 1); */
+    width: 340px;
+    color: rgba(128, 128, 128, 1);
+    height: 90px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .doexisiIddiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgba(44, 44, 44, 0.2);
+}
+.doexisinumberdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    margin: 40px 0;
+}
+.doexistMUVHdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.doexistMUVHh5{
+    font-size: 18px;
+    line-height: 27px;
+    width: 182px;
+    height: 27px;
+}
+.doexistMUVHpara{
+    font-size: 12px;
+    line-height: 30px;
+    width: 270px;
+    height: 60px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles */
+}

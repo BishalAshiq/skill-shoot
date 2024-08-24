@@ -36,6 +36,7 @@ const Footer = () => {
                             Testimoni
                         </Link>
                     </div>
+                    <h6 className={style.CompanyTagmob}>Skill <span className={style.CompanyTagspanmob}>Shoot</span></h6>
                 </div>
             </div>
         </div>

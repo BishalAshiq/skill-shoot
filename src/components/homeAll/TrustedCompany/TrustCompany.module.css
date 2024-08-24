@@ -124,7 +124,8 @@ font-family: "Poppins", sans-serif;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 60px;
+        gap: 30px;
+        margin: 0 50px;
         /* border: solid gray; */
         /* width: 100px; */
         }
@@ -143,13 +144,37 @@ font-family: "Poppins", sans-serif;
 
 }
  .hcnytextarea{
-    padding: 30px;
+    /* padding: 30px; */
     display: grid;
     place-items: center;
     width: 340px;
     height: 300px;
     text-align: center;
     align-items: center;
+ }
+
+ .hcyntag{
+    width: 301px;
+    height: 54px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height:27px;
+
+    text-align: center;
+ }
+ .hcynbtn{
+    margin: -114px 0 0 0;
+ }
+ .hcyntagspan{
+    width: 301px;
+    height: 54px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height:27px;
+
+    text-align: center;
  }
 .trusttexttag{
     width: 328px;

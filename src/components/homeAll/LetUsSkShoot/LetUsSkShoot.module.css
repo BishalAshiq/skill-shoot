@@ -88,6 +88,7 @@ padding: 20px;
     justify-content: space-around;
     padding: 40px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .LetUsSkreachh1{
     font-family: "Poppins", sans-serif;
@@ -137,6 +138,58 @@ padding: 20px;
         display: none;
         visibility: hidden;
     }
+
+    .LetUsSkShoottag{
+        width: 170px;
+        height: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(44, 44, 44, 1);
+    }
+    .LetUsSkShoottagspan{
+    color: rgba(36, 93, 81, 1);
+    border-bottom: 4px solid rgba(203, 132, 97, 1);
+    }
+    .LetUsSkShoottext{
+        width: 339px;
+        height: 90px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        color: rgba(128, 128, 128, 1);
+    }
+    .LetUsSkShootnumdivs{
+        margin: 0 0 60px 0;
+    }
+
+    .LetUsSkreachdiv{
+        background-image: url('/images/reachpic.png');
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        /* border-radius: 8px;  */
+        /* margin: 88px 50px 60px 0px; */
+        display: flex;
+        /* justify-content: space-around; */
+        width: 100%;
+        padding: 40px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .LetUsSkreachh1{
+        font-size: 18px;
+        line-height: 27px;
+        width: 262px;
+        height: 81px;
+        text-align: center;
+    }
+    .LetUsSkShootbtndiv{
+        display: grid;
+        place-items: center;
+    }
+    
   }
   
   /* Small devices (landscape phones, 576px and up) */
