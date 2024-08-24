@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.footerFullDiv{
+    background-image: url('/images/footerBackground.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 50px;
+}
+
+
+.footeritemsfirst{
+    /* position: absolute; */
+    display: flex;
+gap: 40px;
+margin: 12px 0 0 0;
+}
+.footertags{
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 697px;
+        height: 54px
+}
+.footertexts{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 507px;
+        height: 35px
+}
+.footeritemsfirst a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.footeritemsfirst a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.footertagstextsDiv{
+    display:grid;
+    place-items: center;
+}
+
+.footerInputsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footerInput{
+    width: 380px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 0 0 0 20px;
+}
