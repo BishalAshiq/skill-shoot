@@ -3,7 +3,7 @@ import style from "./TrustCompany.module.css";
 
 const TrustCompany = () => {
     return (
-        <div>
+        <div className={style.trustCompanyFulldiv}>
             <div>
                 <div className={style.trusttextdiv}>
                     <h3 className={style.trusttexttag}>Trusted more than 100+ in the world</h3>

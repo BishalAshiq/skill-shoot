@@ -57,7 +57,7 @@ const Review = () => {
 
     return (
         <div>
-            <div>
+            <div className={style.Reviewfulldiv}>
                 <div className={style.Reviewtagsdiv}>
                     <h1 className={style.Reviewtag}>What do they <span Reviewtagspan>say?</span></h1>
                     <p className={style.Reviewtagp}>This is an honest review from members who have joined us</p>

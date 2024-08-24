@@ -9,6 +9,7 @@
 .trustImgsdiv{
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 gap: 30px;
 }
 .trustImg{
@@ -113,6 +114,20 @@ font-family: "Poppins", sans-serif;
 
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+
+    .trustCompanyFulldiv{
+        margin: 40px 0 0 0;
+    }
+
+    .trustImgsdiv{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+        /* border: solid gray; */
+        /* width: 100px; */
+        }
  .hcnypicfulldiv{
     display: none;
     visibility: hidden;
@@ -134,7 +149,28 @@ font-family: "Poppins", sans-serif;
     width: 340px;
     height: 300px;
     text-align: center;
+    align-items: center;
  }
+.trusttexttag{
+    width: 328px;
+    height: 27px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+.trusttextparagra{
+    width: 285px;
+    height: 90px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(128, 128, 128, 1);
+}
+ 
   }
   
   /* Small devices (landscape phones, 576px and up) */

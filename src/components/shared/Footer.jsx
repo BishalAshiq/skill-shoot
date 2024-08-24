@@ -18,7 +18,7 @@ const Footer = () => {
 
 
                 <div className={style.footeritemsLastdiv}>
-                    <h3>Skill Shoot</h3>
+                <h6 className={style.CompanyTag}>Skill <span className={style.CompanyTagspan}>Shoot</span></h6>
                     <div className={style.footeritemsfirst}>
                         <Link href="/">
                             Home
