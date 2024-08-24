@@ -65,7 +65,30 @@ margin: 12px 0 0 0;
     width: 380px;
     height: 60px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 31%);
     border: none;
     padding: 0 0 0 20px;
+    /* opacity: 8%; */
+    outline: none;
+    color: white;
+}
+.footerInputsbutton{
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    background: rgba(204, 134, 99, 1);
+    color: white;
+    font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    border: none;
+}
+
+.footeritemsLastdiv{
+    margin: 108px 50px 0px 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
 }

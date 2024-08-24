@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className={style.footeritemsLastdiv}>
                     <h3>Skill Shoot</h3>
                     <div className={style.footeritemsfirst}>
                         <Link href="/">
